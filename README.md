@@ -23,17 +23,17 @@ index.html
 ```
 ### How to use
 
-Is very easy to use, in index.html is an example.
-Are 5 classes, c-{xs, sm, md, lg, xl}-{1,2,3,4,5,6,7,8,9,10,11,12}
+Is very easy to use, in index.html is an example.<br/>
+Are 5 classes, c-{xs, sm, md, lg, xl}-{1,2,3,4,5,6,7,8,9,10,11,12}.<br/>
 
-xs = extra small devices, < 480px
-sm = small devices, > 480px
-md = medium devices/tablets, > 768px
-lg = large devices, > 992px
-xl = extra large devices/notebooks, > 1200px
+xs = extra small devices, < 480px <br/>
+sm = small devices, > 480px <br/>
+md = medium devices/tablets, > 768px <br/>
+lg = large devices, > 992px <br/>
+xl = extra large devices/notebooks, > 1200px <br/>
 
-And the numbers represent the columns.
-To align the content inside the lines you can use the class:
+And the numbers represent the columns. <br/>
+To align the content inside the lines you can use the class: <br/>
   line-{xs, sm, md, lg, xl}-{top, center, bottom}
 
   ```
