@@ -21,10 +21,79 @@ easy-grid-system/
 │   ├── styles.scss
 index.html
 ```
+### How to use
+
+Is very easy to use, in index.html is an example.
+Are 5 classes, c-{xs, sm, md, lg, xl}-{1,2,3,4,5,6,7,8,9,10,11,12}
+
+xs = extra small devices, < 480px
+sm = small devices, > 480px
+md = medium devices/tablets, > 768px
+lg = large devices, > 992px
+xl = extra large devices/notebooks, > 1200px
+
+And the numbers represent the columns.
+To align the content inside the lines you can use the class:
+  line-{xs, sm, md, lg, xl}-{top, center, bottom}
+
+  ```
+  <div class="line line-md-center">
+    <div class="c-xs-10">
+      <p>
+        This is a paragraph
+      </p>
+    </div>
+    <div class="c-xs-2">
+      <p>
+        Lorem ipsum dolor sit amet, ex altera putant suavitate pri. Ea mea virtute euismod civibus. Ad ius velit tollit, qui virtute definitiones no. Nam id atqui saepe, nullam petentium efficiantur nec cu. Malis aeterno constituam vix cu.
+      </p>
+    </div>
+  </div>
+  ```
+
+Easy example:
+
+```
+  <div class="line">
+    <div class="c-xs-12 c-md-6">
+      <p>
+        Lorem ipsum dolor sit amet, ex altera putant suavitate pri. Ea mea virtute euismod civibus. Ad ius velit tollit.
+      </p>
+    </div>
+    <div class="c-xs-12 c-md-6">
+      <p>
+        Id quis lorem vitae eos. Dolor menandri qui cu. Mea posse verear ad, ius magna referrentur eu, ullum dolorum inimicus ad vel.
+      </p>
+    </div>
+  </div>
+
+```
+
+Everytime you want to use the grid system you will need to wrap your content in a div with a 'line' class.
+
+Nested lines :
+
+```
+<div class="line">
+  <div class="c-xs-12 c-md-6">
+    <p>
+      Lorem ipsum dolor sit amet, ex altera putant suavitate pri. Ea mea virtute euismod civibus. Ad ius velit tollit.
+    </p>
+    <div class="line">
+      <div class="c-md-5">
+        <p>
+          This is another paragraph.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+```
 
 ## Creator
 
-**RobertKis**
+**Robert Kis**
 
 - <https://twitter.com/TheRibi91>
 - <https://github.com/TheRibi>
